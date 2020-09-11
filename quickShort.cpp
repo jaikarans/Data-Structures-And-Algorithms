@@ -10,7 +10,7 @@ void swap(int* p, int* q){
 
 void quickShort(int arr[], int firstPosition, int lastPosition){
     if(firstPosition<lastPosition){
-        int pivot   =   firstPosition;  //first element is pivot
+        int pivot   =   firstPosition;  //first element of each partition is pivot
         int start   =   firstPosition;
         int end     =   lastPosition;
         
